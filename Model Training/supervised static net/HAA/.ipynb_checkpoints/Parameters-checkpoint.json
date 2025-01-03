@@ -1,0 +1,13 @@
+{
+    "EPOCH_NUM": 47,
+    "BATCH_SIZE": 128,
+    "ACCUMULATE_GRAD_BATCHES": 2,
+    "LEARNING_RATE": 0.001,
+    "LEARNING_RATE_STEPS": [100, 200],
+    "MOMENTUM": 0.9,
+    "WEIGHT_DECAY": 0.0001,
+    "GPU_NUM": 4,
+    "WORKER_NUM": 8
+    "FRAMES_DIR": "./haa_frames",
+    "SHARDS_DIR": "./shards"
+}
